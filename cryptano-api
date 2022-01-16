@@ -495,7 +495,7 @@ POST
 参数名	必选	类型	说明
 nonceStr	是	string	随机字符串
 timestamp	是	string	时间戳
-accessKey	是	string	koinsbase网站个人中心 APIKey管理中创建的KeyID
+accessKey	是	string	cryptano网站个人中心 APIKey管理中创建的KeyID
 sign	是	string	所有参数使用ApiSecret加密获得的签名（sign本身不参与签名）
 返回示例
 {
@@ -548,7 +548,7 @@ POST
 symbol	是	string	交易对的名称 例如：BTCUSDT
 nonceStr	是	string	随机字符串
 timestamp	是	string	时间戳
-accessKey	是	string	koinsbase网站个人中心 APIKey管理中创建的KeyID
+accessKey	是	string	cryptano网站个人中心 APIKey管理中创建的KeyID
 sign	是	string	所有参数使用ApiSecret加密获得的签名（sign本身不参与签名）
 返回示例
 {
@@ -600,7 +600,7 @@ POST
 symbol	是	string	交易对的名称 例如：BTCUSDT
 nonceStr	是	string	随机字符串
 timestamp	是	string	时间戳
-accessKey	是	string	koinsbase网站个人中心 APIKey管理中创建的KeyID
+accessKey	是	string	cryptano网站个人中心 APIKey管理中创建的KeyID
 pageNum	是	int	页码
 pageSize	是	int	每页显示条数
 sign	是	string	所有参数使用ApiSecret加密获得的签名（sign本身不参与签名）
@@ -674,7 +674,7 @@ direct	是	int	查询方向 （默认值next，成交记录ID由大到小排序�
 size	是	int	查询记录大小 默认值 100 取值范围 <=100
 nonceStr	是	string	随机字符串
 timestamp	是	string	时间戳
-accessKey	是	string	koinsbase网站个人中心 APIKey管理中创建的KeyID
+accessKey	是	string	cryptano网站个人中心 APIKey管理中创建的KeyID
 sign	是	string	所有参数使用ApiSecret加密获得的签名（sign本身不参与签名）
 {
     "code": "0",
@@ -735,7 +735,7 @@ size	是	int	数量
 amount	是	string	市价买入,买入总额
 nonceStr	是	string	随机字符串
 timestamp	是	string	时间戳
-accessKey	是	string	koinsbase网站个人中心 APIKey管理中创建的KeyID
+accessKey	是	string	cryptano网站个人中心 APIKey管理中创建的KeyID
 sign	是	string	所有参数使用ApiSecret加密获得的签名（sign本身不参与签名）
 返回示例
 {
@@ -765,7 +765,7 @@ POST
 orderId	是	string	交易ID
 nonceStr	是	string	随机字符串
 timestamp	是	string	时间戳
-accessKey	是	string	koinsbase网站个人中心 APIKey管理中创建的KeyID
+accessKey	是	string	cryptano网站个人中心 APIKey管理中创建的KeyID
 sign	是	string	所有参数使用ApiSecret加密获得的签名（sign本身不参与签名）
 返回示例
 {
@@ -791,7 +791,7 @@ POST
 orderId	是	string	交易ID
 nonceStr	是	string	随机字符串
 timestamp	是	string	时间戳
-accessKey	是	string	koinsbase网站个人中心 APIKey管理中创建的KeyID
+accessKey	是	string	cryptano网站个人中心 APIKey管理中创建的KeyID
 sign	是	string	所有参数使用ApiSecret加密获得的签名（sign本身不参与签名）
 返回示例
 {
